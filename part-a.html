@@ -43,9 +43,15 @@
               </div>
             </div>
           </nav> 
+          <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Dismissible popover" data-bs-placement="left" data-bs-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
         
         <!-- JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
+        <script>
+          var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
+            trigger: 'focus'
+          })
+        </script>
     </body>
 </html>
