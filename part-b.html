@@ -5,10 +5,88 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
+        <!--jQuery link-->
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        
         <!-- CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" type="text/css" />
         
+        <script>
+          $(function(){
+            
+            // quantity-data-app
+            $("#quantity-data-app").on({
+              mouseenter: function(){
+                $("#quantity-sentence").slideDown();
+              },
+              mouseleave: function(){
+                $("#quantity-sentence").slideUp();
+              },
+            });
+            
+            // hovering trains
+            $("#hovering-trains").on({
+              mouseenter: function(){
+                $("#hovering-sentence").slideDown();
+              },
+              mouseleave: function(){
+                $("#hovering-sentence").slideUp();
+              },
+            });
+            
+            // window tint
+            $("#window-tint").on({
+              mouseenter: function(){
+                $("#window-sentence").slideDown();
+              },
+              mouseleave: function(){
+                $("#window-sentence").slideUp();
+              },
+            });
+            
+            // human anchor
+            $("#human-anchor").on({
+              mouseenter: function(){
+                $("#human-sentence").slideDown();
+              },
+              mouseleave: function(){
+                $("#human-sentence").slideUp();
+              },
+            });
+            
+            // all type vechicle
+            $("#all-type-vehicle").on({
+              mouseenter: function(){
+                $("#all-sentence").slideDown();
+              },
+              mouseleave: function(){
+                $("#all-sentence").slideUp();
+              },
+            });
+            
+            // teleporters
+            $("#teleporters").on({
+              mouseenter: function(){
+                $("#teleporters-sentence").slideDown();
+              },
+              mouseleave: function(){
+                $("#teleporters-sentence").slideUp();
+              },
+            });
+            
+            // animated GPS windshield
+            $("#animated-gps-windshield").on({
+              mouseenter: function(){
+                $("#animated-sentence").slideDown();
+              },
+              mouseleave: function(){
+                $("#animated-sentence").slideUp();
+              },
+            });
+            
+          });
+        </script>
         <title>Title</title>
     </head>
     <body>
@@ -58,50 +136,50 @@
             <!--quantity data app-->
             <div class="col-sm-6 col-lg-4 center">
               <p>Quantity Data App</p>
-              <img src="#" alt="" class="part-b-img">
-              <p>An app that let's you know the quantity of people with transportation.</p>
+              <img src="#" alt="" class="part-b-img" id="quantity-data-app">
+              <p id="quantity-sentence" class="sentence">An app that let's you know the quantity of people with transportation.</p>
             </div>
             
             <!--hovering trains-->
             <div class="col-sm-6 col-lg-4 center">
               <p>Hovering Trains</p>
-              <img src="#" alt="" class="part-b-img">
-              <p>Hovering trains run on fans instead of wheels. They follow a line created by a software engineer and is lightweight.</p>
+              <img src="#" alt="" class="part-b-img" id="hovering-trains">
+              <p id="hovering-sentence" class="sentence">Hovering trains run on fans instead of wheels. They follow a line created by a software engineer and is lightweight.</p>
             </div>
 
             <!--window tint-->
             <div class="col-sm-6 col-lg-4 center">
               <p>Window Tint</p>
-              <img src="#" alt="" class="part-b-img">
-              <p>The window tint allows you to change the tint of the window through your phone or the window.</p>
+              <img src="" alt="" class="part-b-img" id="window-tint">
+              <p id="window-sentence" class="sentence">The window tint allows you to change the tint of the window through your phone or the window.</p>
             </div>
             
             <!--human anchor-->
             <div class="col-sm-6 col-lg-4 center">
               <p>Human anchor</p>
-              <img src="#" alt="" class="part-b-img">
-              <p>A type of material on the vehicles’ ground that can make shoes stick to it to keep balance.</p>
+              <img src="#" alt="" class="part-b-img" id="human-anchor">
+              <p id="human-sentence" class="sentence">A type of material on the vehicles’ ground that can make shoes stick to it to keep balance.</p>
             </div>
             
             <!--all type vehicle-->
             <div class="col-sm-6 col-lg-4 center">
               <p>All type vehicle</p>
-              <img src="#" alt="" class="part-b-img">
-              <p>A vehicle that can travel on land, water, air and fire. The vehicle has different types of wheels for different surfaces.</p>
+              <img src="#" alt="" class="part-b-img" id="all-type-vehicle">
+              <p id="all-sentence" class="sentence">A vehicle that can travel on land, water, air and fire. The vehicle has different types of wheels for different surfaces.</p>
             </div>
             
             <!--teleporters-->
             <div class="col-sm-6 col-lg-4 center">
               <p>Teleporters</p>
-              <img src="#" alt="" class="part-b-img">
-              <p>An orb that allows you to teleport to places. It's powered by a battery and it can teleport as many people as you want.</p>
+              <img src="#" alt="" class="part-b-img" id="teleporters">
+              <p id="teleporters-sentence" class="sentence">An orb that allows you to teleport to places. It's powered by a battery and it can teleport as many people as you want.</p>
             </div>
             
             <!--animated gps windshield-->
             <div class="center">
               <p>Animated GPS Windshield</p>
-              <img src="#" alt="" class="part-b-img">
-              <p>An animated windshield that alerts nearby cars and shows 3d arrows to show which way you're supposed to go. It is augmented reality.</p>
+              <img src="#" alt="" class="part-b-img" id="animated-gps-windshield">
+              <p id="animated-sentence" class="sentence">An animated windshield that alerts nearby cars and shows 3d arrows to show which way you're supposed to go. It is augmented reality.</p>
             </div>
             
             
