@@ -15,3 +15,13 @@
 .center {
     text-align: center;
 }
+
+.part-b-img {
+    height:120px;
+    width:120px;
+}
+
+.sentence {
+    display: none;
+}
+
