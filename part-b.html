@@ -28,10 +28,10 @@
             // hovering trains
             $("#hovering-trains").on({
               mouseenter: function(){
-                $("#hovering-sentence").slideDown();
+                $("#hovering-sentence").fadeIn("slow");
               },
               mouseleave: function(){
-                $("#hovering-sentence").slideUp();
+                $("#hovering-sentence").fadeOut("slow");
               },
             });
             
@@ -48,10 +48,10 @@
             // human anchor
             $("#human-anchor").on({
               mouseenter: function(){
-                $("#human-sentence").slideDown();
+                $("#human-sentence").fadeIn();
               },
               mouseleave: function(){
-                $("#human-sentence").slideUp();
+                $("#human-sentence").fadeOut();
               },
             });
             
@@ -68,10 +68,10 @@
             // teleporters
             $("#teleporters").on({
               mouseenter: function(){
-                $("#teleporters-sentence").slideDown();
+                $("#teleporters-sentence").fadeIn();
               },
               mouseleave: function(){
-                $("#teleporters-sentence").slideUp();
+                $("#teleporters-sentence").fadeOut();
               },
             });
             
