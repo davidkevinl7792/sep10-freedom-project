@@ -22,10 +22,21 @@
     /*margin-top:50px;*/
 }
 .background1{
-    background-image: linear-gradient(#C4A484,#ADD8E6);
+    background-image: linear-gradient(#704214,#B8A88A);
 }
 .background2{
-    background-image:linear-gradient(#ADD8E6,#30638E);;
+    background-image:linear-gradient(#B8A88A,#30638E);;
+}
+.line{
+    height:200px;
+    width:50px;
+    background-color:red;
+}
+.old{
+    mix-blend-mode:screen;
+}
+.popover {
+    background: #704214;
 }
 .center {
     text-align: center;
