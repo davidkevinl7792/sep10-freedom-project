@@ -1,3 +1,5 @@
+/*part a*/
+
 .bg-dark{
     background-image: url("img/download.jpeg");
     background-repeat:no-repeat;
@@ -29,6 +31,8 @@
     text-align: center;
 }
 
+/*part b*/
+
 .part-b-img {
     height:120px;
     width:120px;
@@ -38,3 +42,8 @@
     display: none;
 }
 
+/*hmepage*/
+
+.bg {
+    background: black;
+}
