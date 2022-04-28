@@ -25,6 +25,11 @@
 .background2{
     background-image:linear-gradient(#ADD8E6,#30638E);;
 }
+.line{
+    height:200px;
+    width:50px;
+    background-color:red;
+}
 .center {
     text-align: center;
 }
