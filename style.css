@@ -7,11 +7,24 @@
 .a{
     background-color: rgba(255,255,255,0.1);
 }
-.p{
-    margin-left: 49%;
-    margin-right:49%;
+.b{
+    margin-top:10px;
 }
-
+.c{
+    margin-bottom:10px;
+}
+.p{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top:50px;*/
+}
+.background1{
+    background-image: linear-gradient(#C4A484,#ADD8E6);
+}
+.background2{
+    background-image:linear-gradient(#ADD8E6,#30638E);;
+}
 .center {
     text-align: center;
 }
