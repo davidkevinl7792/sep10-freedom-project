@@ -30,13 +30,13 @@
 .line{
     height:200px;
     width:50px;
-    background-color:red;
+    background-color:black;
 }
 .old{
-    mix-blend-mode:screen;
+    mix-blend-mode:lighten;
 }
-.popover {
-    background: #704214;
+.popover.bottom .arrow:after {
+    border-bottom-color: #704214;
 }
 .center {
     text-align: center;
