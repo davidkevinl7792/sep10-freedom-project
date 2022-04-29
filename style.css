@@ -53,8 +53,25 @@
     display: none;
 }
 
-/*hmepage*/
+/*homepage*/
 
 .bg {
     background: black;
 }
+
+.navbar-bg {
+    background-color: #0039A6 !important;
+}
+
+.white-w {
+    color: white !important;
+}
+
+.yellow-w {
+    color :#FCCC0A;
+}
+
+.orange-w {
+    color: #FF6319;
+}
+
