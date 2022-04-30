@@ -56,7 +56,7 @@
 /*homepage*/
 
 .bg {
-    background: black;
+    background: black !important;
 }
 
 .navbar-bg {
@@ -75,3 +75,23 @@
     color: #FF6319;
 }
 
+.yellow-collap {
+    background: #FCCC0A !important;
+    border: #FCCC0A !important;
+}
+
+.yellow-collap:focus {
+    box-shadow: 0 0 0 0.25rem rgb(252 204 10 / 50%) !important;
+}
+
+.orange-collap {
+    background: #FF6319 !important;
+}
+
+.orange-collap:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 99 25 / 50%) !important;
+}
+
+.collapse-bg {
+    background-color: black !important;
+}
