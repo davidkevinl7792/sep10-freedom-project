@@ -126,3 +126,10 @@
 .top-margin {
     margin-top: 50px;
 }
+
+.footer {
+    background: #0039A6;
+    padding-top: 8px;
+    position: relative;
+    top: 94%;
+}
