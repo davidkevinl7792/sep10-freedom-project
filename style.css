@@ -119,6 +119,10 @@
     box-shadow: 0 0 0 0.25rem rgb(255 99 25 / 50%) !important;
 }
 
-.collapse-bg {
-    background-color: black !important;
+.collap-margin {
+    margin-bottom: 80px;
+}
+
+.top-margin {
+    margin-top: 50px;
 }
