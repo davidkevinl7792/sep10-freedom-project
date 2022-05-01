@@ -105,6 +105,7 @@
 .yellow-collap {
     background: #FCCC0A !important;
     border: #FCCC0A !important;
+    font-family: 'Playfair Display SC', serif !important;
 }
 
 .yellow-collap:focus {
@@ -113,14 +114,15 @@
 
 .orange-collap {
     background: #FF6319 !important;
+    font-family: 'Playfair Display SC', serif !important;
 }
 
 .orange-collap:focus {
     box-shadow: 0 0 0 0.25rem rgb(255 99 25 / 50%) !important;
 }
 
-.collap-margin {
-    margin-bottom: 80px;
+.bottom-margin {
+    margin-bottom: 60px;
 }
 
 .top-margin {
@@ -132,4 +134,24 @@
     padding-top: 8px;
     position: relative;
     top: 94%;
+}
+
+.collap {
+    font-weight: 900 !important;
+    font-size: 25px !important;
+}
+
+.font {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Fauna One', serif;
+}
+
+@media (max-width: 767px) {
+    
+    .sm-margin-p {
+        margin-bottom: 0px;
+    }
+    
+    
 }
