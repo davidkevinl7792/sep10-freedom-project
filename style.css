@@ -105,6 +105,7 @@
 .yellow-collap {
     background: #FCCC0A !important;
     border: #FCCC0A !important;
+    font-family: 'Roboto Slab', serif !important;
 }
 
 .yellow-collap:focus {
@@ -113,23 +114,102 @@
 
 .orange-collap {
     background: #FF6319 !important;
+    font-family: 'Roboto Slab', serif !important;
 }
 
 .orange-collap:focus {
     box-shadow: 0 0 0 0.25rem rgb(255 99 25 / 50%) !important;
 }
 
-.collap-margin {
-    margin-bottom: 80px;
+.bottom-margin {
+    margin-bottom: 60px;
 }
 
 .top-margin {
     margin-top: 50px;
 }
 
-.footer {
+footer {
     background: #0039A6;
     padding-top: 8px;
     position: relative;
-    top: 94%;
+    top: 93.5%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+.collap {
+    font-weight: 900 !important;
+    font-size: 25px !important;
+}
+
+.font {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Fauna One', serif;
+}
+
+.navbar-font {
+    font-family: 'Roboto Slab', serif !important;
+    font-weight: 800 !important;
+    font-size: 20px !important;
+}
+
+.modal-btn {
+    background: none !important;
+    border: none !important;
+    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.space {
+    color: #0039A6;
+}
+
+.david {
+    background-color: #FF6319;
+    border-radius: 10px;
+    color: white;
+}
+
+.yala {
+    background-color: #FCCC0A;
+    border-radius: 10px;
+    color: white;
+}
+
+.purple {
+    background-color: #60269E;
+}
+
+.viga-font {
+    font-family: 'Viga', sans-serif;
+}
+
+.line-height {
+    line-height: 5px;
+}
+
+.modal-info {
+    font-family: 'Questrial', sans-serif;
+}
+
+.modal-close {
+    background-color: #4D5357;
+}
+
+.btn-close:focus {
+    box-shadow: 0 0 0 0.15rem black !important;
+}
+
+@media (max-width: 767px) {
+
+    .sm-margin-p {
+        margin-bottom: 0px;
+    }
+
+
 }
