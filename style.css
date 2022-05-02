@@ -181,6 +181,30 @@ footer {
     color: white;
 }
 
+.purple {
+    background-color: #60269E;
+}
+
+.viga-font {
+    font-family: 'Viga', sans-serif;
+}
+
+.line-height {
+    line-height: 5px;
+}
+
+.modal-info {
+    font-family: 'Questrial', sans-serif;
+}
+
+.modal-close {
+    background-color: #4D5357;
+}
+
+.btn-close:focus {
+    box-shadow: 0 0 0 0.15rem black !important;
+}
+
 @media (max-width: 767px) {
 
     .sm-margin-p {
