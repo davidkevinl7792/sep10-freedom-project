@@ -205,6 +205,10 @@ footer {
     box-shadow: 0 0 0 0.15rem black !important;
 }
 
+.margin {
+    margin-bottom: 40px;
+}
+
 @media (max-width: 767px) {
 
     .sm-margin-p {
