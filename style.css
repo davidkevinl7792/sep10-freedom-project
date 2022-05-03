@@ -32,6 +32,13 @@
     margin-right: auto;
     /*margin-top:50px;*/
 }
+h1{
+    font-family:'Roboto Slab', serif !important;
+    color:white;
+}
+h5, h6{
+    font-family:'Oswald', sans-serif !important;
+}
 .background0{
     background-image:url(img/old-city.jpg);
     background-repeat: no-repeat;
