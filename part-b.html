@@ -27,7 +27,17 @@
 
         <script>
           $(function(){
-
+            
+            // navbar underline items
+            $(".underline").on({
+              mouseenter: function(){
+                $(this).css({"text-decoration": "underline"});
+              },
+              mouseleave: function(){
+                $(this).css({"text-decoration": "none"});
+              },
+            });
+            
             // quantity-data-app
             $("#quantity-data-app").on({
               mouseenter: function(){
@@ -124,13 +134,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link white-w navbar-w" href="home.html">Home</a>
+                  <a class="nav-link white-w navbar-w underline" href="home.html">Home</a>
                 </li>
               </ul>
 
               <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active white-w navbar-w" aria-current="page" href="part-a.html">The Past</a>
+                  <a class="nav-link active white-w navbar-w underline" aria-current="page" href="part-a.html">The Past</a>
                 </li>
               </ul>
             </div> <!--./collapse ./navbar-collapse-->

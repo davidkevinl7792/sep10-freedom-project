@@ -184,11 +184,11 @@ h5, h6{
 @media (min-width: 1200px) {
     
     .sentence{
-        font-size: 1.8vw;
+        font-size: 1.2vw;
     } 
     
     .invention-name {
-        font-size: 3.6vw;
+        font-size: 2.8vw;
     }
 }
 
@@ -197,6 +197,27 @@ h5, h6{
 
 
 /*HOMEPAGE*/
+
+.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("http://www.brownstoner.com/wp-content/uploads/2017/01/nyc-transportation-brooklyn-future-projects-2-1.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: scroll !important;
+    background-size: cover !important;
+}
+
+.title {
+    color: white;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.context {
+    color: white;
+    font-family: 'Fauna One', serif;
+    font-weight: 900 !important;
+}
 
 .black-bg {
     background: black !important;
@@ -248,8 +269,6 @@ h5, h6{
 footer {
     background: #0039A6;
     padding-top: 8px;
-    position: relative;
-    top: 93.5%;
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
 }
