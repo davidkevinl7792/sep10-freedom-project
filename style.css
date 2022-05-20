@@ -38,6 +38,11 @@
     font-size:8px;
     text-align:left;
 }
+.h{
+    font-size:10px;
+    text-align:center;
+    padding-top:20px;
+}
 .p{
     display:block;
     margin-left: auto;
